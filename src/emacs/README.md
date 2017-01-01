@@ -71,7 +71,7 @@ case, just put the following code in your Emacs init file:
 (setq lean-rootdir "~/projects/lean")
 (setq lean-emacs-path "~/projects/lean/src/emacs")
 
-(setq lean-required-packages '(company dash dash-functional f
+(setq lean-mode-required-packages '(company dash dash-functional f
                                flycheck let-alist s seq))
 
 (require 'package)
